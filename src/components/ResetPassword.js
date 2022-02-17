@@ -12,6 +12,9 @@ import Typography from '@mui/material/Typography';
 import CustomisedSnackbar from './CustomisedSnackbar';
 import LoaderPage from './LoaderPage';
 const ResetPassword = () => {
+
+    document.title='Reset Password'
+
     const navigate = useNavigate();
 
     React.useEffect(() => {

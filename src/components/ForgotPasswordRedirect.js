@@ -5,6 +5,9 @@ import LoaderPage from './LoaderPage';
 
 const ForgotPasswordRedirect = () => {
 
+    document.title='Redirect'
+
+
     const navigate = useNavigate();
     const params = useParams();
 

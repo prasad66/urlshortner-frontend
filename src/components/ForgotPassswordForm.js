@@ -14,6 +14,9 @@ import SendIcon from '@mui/icons-material/Send';
 import LoaderPage from './LoaderPage';
 const ForgotPassswordForm = () => {
 
+    document.title='Forgot Password'
+
+
     const [error, setError] = React.useState(false);
     const [msg, setMsg] = React.useState('');
     const [color, setColor] = React.useState('');

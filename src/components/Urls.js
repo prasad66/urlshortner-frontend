@@ -10,6 +10,10 @@ import { API_URL } from './../constants';
 
 
 const Urls = () => {
+
+  document.title='URLS'
+
+
   const navigate = useNavigate();
   const token = localStorage.getItem('token');
   const { email } = JSON.parse(localStorage.getItem('user'));

@@ -18,6 +18,10 @@ import LoaderPage from './LoaderPage';
 
 
 const Register = () => {
+
+    document.title='SIGN UP'
+
+
     const navigate = useNavigate();
 
     React.useEffect(() => {

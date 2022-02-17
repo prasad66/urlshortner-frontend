@@ -20,6 +20,7 @@ import BasicCard from './Card';
 import { Typography } from '@mui/material'
 
 const Dashboard = () => {
+    document.title='Dashboard'
 
     const navigate = useNavigate();
 
